@@ -25,4 +25,30 @@
    color: var(--black);
    font-size: 16px;
    line-height: 1;
+   overflow-x: hidden;
+}
+
+nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: absolute;
+   z-index: 2;
+   left: 10%;
+   top: 10%;
+   min-width: 80%;
+}
+nav i {
+   color: var(--white);
+   font-size: 40px;
+   padding: 10px;
+   background-color: var(--black);
+   border-radius: 10px;
+}
+
+.green-arrow {
+   color: var(--sef_primary);
+   font-weight: bolder;
+   font-size: 20px;
+   margin-right: 10px;
 }

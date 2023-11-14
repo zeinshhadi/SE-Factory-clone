@@ -32,3 +32,16 @@ let typed = new Typed(".auto-input", {
       }
    },
 });
+
+let navButton = document.querySelector("#nav-btn").addEventListener("click", displayMenu);
+let navMenu = document.querySelector(".nav-menu");
+let menuIcon = document.querySelector("#nav-btn");
+function displayMenu() {
+   if (navMenu.style.display === "block") {
+      navMenu.style.display = "none";
+      menuIcon.innerHTML = '<i class="fa fa-bars"></i>';
+   } else {
+      navMenu.style.display = "block";
+      menuIcon.innerHTML = '<i class="fa fa-times"></i>';
+   }
+}
