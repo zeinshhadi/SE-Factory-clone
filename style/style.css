@@ -80,7 +80,7 @@
 }
 .title-span {
    padding: 10px;
-   font-size: 24px;
+   font-size: 1rem;
    display: inline;
    line-height: 3.5;
 }
@@ -95,7 +95,7 @@
 .hero-left-desc {
    color: var(--white);
    text-align: right;
-   font-size: 15px;
+   font-size: 0.8rem;
    margin-top: 40px;
    margin-bottom: 40px;
    line-height: 1.5;
@@ -110,7 +110,7 @@
 }
 .hero-right-desc {
    color: white;
-   font-size: 15px;
+   font-size: 0.8rem;
    line-height: 1.5;
    padding-top: 40px;
    padding-bottom: 40px;
@@ -280,8 +280,100 @@
 }
 
 /* milestones section */
-
-.milestones {
+.milestones-section {
+   height: 100%;
+}
+.milestones-data {
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+}
+.inner-milestone {
    display: flex;
    flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   gap: 20px;
+
+   border-radius: 20px;
+}
+.milestone-left {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-color: var(--background);
+   gap: 20px;
+   padding: 40px;
+}
+
+.percentage {
+   font-size: 60px;
+   display: flex;
+   align-items: flex-end;
+}
+.success-rate {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.success-list {
+   padding: 0px;
+}
+.success-list li {
+   list-style: none;
+   padding: 2px;
+   font-size: 14px;
+   font-weight: normal;
+}
+.upper-right-milestone {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: flex-start;
+   gap: 20px;
+}
+
+.trained {
+   flex-basis: 320px;
+   background-color: var(--background);
+   padding: 40px;
+   line-height: 1.5;
+}
+.hiring-companies {
+   background-color: var(--background);
+   padding: 28px;
+   line-height: 1.8;
+}
+
+.lower-right-milestone {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: flex-start;
+   gap: 20px;
+}
+.grads {
+   flex-basis: 403px;
+   background-color: var(--background);
+   padding: 40px;
+   line-height: 1.5;
+}
+
+.recruitment-global {
+   background-color: var(--background);
+   padding: 20px 0px 20px 20px;
+   line-height: 1.8;
+}
+
+/* programs section */
+
+.programs-section {
+   background-color: var(--sef_primary);
+   margin-top: 20px;
+}
+
+.programs-title {
+   background-color: var(--black-2);
+   color: var(--white);
+   padding: 8px;
 }

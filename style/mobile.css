@@ -19,6 +19,15 @@
    }
    .details-left {
       padding-top: 9rem;
+      padding-left: 0px;
+   }
+   .details-right {
+      justify-content: center;
+      align-items: flex-end;
+   }
+   .title-right {
+      text-align: right;
+      margin-bottom: 5px;
    }
    .nav-menu {
       background-color: rgba(0, 0, 0, 0.9);
@@ -65,5 +74,14 @@
       height: 50%;
       border: 10px solid var(--sef_primary);
       border-radius: 10px;
+   }
+   .milestones-data {
+      flex-direction: column;
+   }
+   .green-arrow {
+      font-size: 20px;
+   }
+   .section-title {
+      font-size: 20px;
    }
 }
