@@ -423,6 +423,7 @@
 }
 
 #fcs-content {
+   height: 50%;
    color: white;
    border-top-left-radius: 0px;
    border-top-right-radius: 10px;
@@ -445,4 +446,21 @@
    color: white;
    border-radius: 10px;
    background-color: var(--black);
+}
+.inner-tab-left {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: start;
+   gap: 20px;
+   max-width: fit-content;
+   padding: 30px;
+}
+
+.inner-container {
+   display: flex;
+}
+
+.hire-section {
+   background-color: var(--black-2);
 }

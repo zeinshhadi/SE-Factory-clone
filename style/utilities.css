@@ -77,22 +77,48 @@ nav i {
 .circles .circle-div:nth-child(3) {
    background-color: var(--sef_primary);
 }
-.circles-p {
-   display: flex;
-   gap: 10px;
-   align-items: center;
-}
+
 .circle-div-p {
    height: 10px;
    padding: 10px;
    border-radius: 50%;
 }
-.circles-p .circle-div-p:nth-child(1) {
+.circles .circle-div-p:nth-child(1) {
    background-color: var(--light_grey);
 }
-.circles-p .circle-div-p:nth-child(2) {
+.circles .circle-div-p:nth-child(2) {
    background-color: var(--grey);
 }
-.circles-p .circle-div-p:nth-child(3) {
+.circles .circle-div-p:nth-child(3) {
    background-color: var(--black-2);
+}
+
+.circle-div-h {
+   height: 10px;
+   padding: 10px;
+   border-radius: 50%;
+}
+.circles .circle-div-h:nth-child(1) {
+   background-color: var(--ghost-white);
+}
+.circles .circle-div-h:nth-child(2) {
+   background-color: var(--grey);
+}
+.circles .circle-div-h:nth-child(3) {
+   background-color: var(--sef_primary);
+}
+
+.circle-div-t {
+   height: 10px;
+   padding: 10px;
+   border-radius: 50%;
+}
+.circles .circle-div-t:nth-child(1) {
+   background-color: var(--black);
+}
+.circles .circle-div-t:nth-child(2) {
+   background-color: var(--grey);
+}
+.circles .circle-div-t:nth-child(3) {
+   background-color: var(--sef_primary);
 }
