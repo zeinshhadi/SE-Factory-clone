@@ -460,7 +460,132 @@
 .inner-container {
    display: flex;
 }
-
+/* hire section */
 .hire-section {
+   background-color: var(--black);
+}
+.hire-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 100px;
+   height: 100%;
+   color: var(--background);
+
+   gap: 20px;
+}
+.hire-title {
+   background-color: var(--black);
+   color: white;
+}
+.upper-container-hire {
+   padding: 30px;
    background-color: var(--black-2);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   gap: 10px;
+   align-items: flex-start;
+   border-radius: 20px;
+}
+.hire-section-span {
+   width: 80%;
+   background-color: var(--black);
+
+   margin: 15px;
+}
+
+.oredered-hire-list li {
+   margin: 15px;
+}
+.contact-hire-btn {
+   padding: 10px;
+   background-color: var(--black);
+   width: 100%;
+   text-align: right;
+}
+.lower-container {
+   text-align: right;
+   display: flex;
+   align-items: center;
+   width: 100%;
+   justify-content: flex-end;
+   padding: 10px;
+   background-color: var(--black-2);
+   border-radius: 20px;
+}
+.img-hr img {
+   width: 120px;
+   height: 70px;
+}
+/* testimonials section */
+.testimonial-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   gap: 20px;
+   width: 80%;
+   margin: auto;
+   overflow: hidden;
+   position: relative;
+}
+.testimonial-title {
+   background-color: var(--white);
+}
+.testimonial-slide {
+   display: none;
+   width: 100%;
+   text-align: center;
+   color: #ecedf3;
+}
+.inner-testimonial-slide {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 100px;
+}
+
+.testimonial-slide img {
+   width: 100%;
+   max-width: 450px;
+   height: 400px;
+   border-radius: 10px;
+}
+
+.testimonial-dots {
+   text-align: center;
+   margin-top: 10px;
+}
+
+.dot {
+   height: 15px;
+   width: 15px;
+   margin: 0 5px;
+   background-color: #bbb;
+   border-radius: 50%;
+   display: inline-block;
+   cursor: pointer;
+}
+
+.dot.active {
+   background-color: #717171;
+}
+.upper-testimonial {
+   background-color: var(--black);
+   padding: 50px;
+   border-radius: 10px;
+}
+/* faqs section */
+
+.faqs {
+   background-color: var(--black);
+}
+.faq-title {
+   background-color: var(--black);
+   color: white;
+}
+/* contact us section */
+
+.contact-us {
+   background-color: var(--sef_primary);
 }

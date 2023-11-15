@@ -61,3 +61,43 @@ tabs.forEach((tab) => {
       target.classList.add("active");
    });
 });
+
+let currentSlide = 0;
+const slides = document.querySelectorAll(".testimonial-slide");
+const dots = document.querySelectorAll(".dot");
+
+function showSlide(index) {
+   slides.forEach((slide) => {
+      slide.style.display = "none";
+   });
+
+   dots.forEach((dot) => {
+      dot.classList.remove("active");
+   });
+
+   slides[index].style.display = "block";
+   dots[index].classList.add("active");
+}
+
+function nextSlide() {
+   currentSlide = (currentSlide + 1) % slides.length;
+   showSlide(currentSlide);
+}
+
+function prevSlide() {
+   currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+   showSlide(currentSlide);
+}
+
+function setSlide(index) {
+   currentSlide = index;
+   showSlide(currentSlide);
+}
+
+setInterval(nextSlide, 5000);
+
+dots.forEach((dot, index) => {
+   dot.addEventListener("click", () => {
+      setSlide(index);
+   });
+});
