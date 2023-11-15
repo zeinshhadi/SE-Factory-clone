@@ -19,6 +19,7 @@
 * {
    box-sizing: border-box;
    margin: 0;
+   font-family: Noto Sans Mono, sans-serif;
 }
 
 .body {
@@ -26,6 +27,9 @@
    font-size: 16px;
    line-height: 1;
    overflow-x: hidden;
+}
+.hero {
+   position: relative;
 }
 
 nav {

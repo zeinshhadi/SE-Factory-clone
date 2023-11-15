@@ -8,9 +8,6 @@ let typed = new Typed(".auto-input", {
    loop: true,
    loopCount: false,
    cursorChar: "_",
-   onComplete: function () {
-      console.log("complete");
-   },
    preStringTyped: function (arrayPos, self) {
       switch (arrayPos) {
          case 0:

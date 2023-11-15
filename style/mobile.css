@@ -1,0 +1,54 @@
+@media only screen and (max-width: 900px) {
+   .hero {
+      position: relative;
+   }
+   .hero-parent {
+      flex-direction: column;
+   }
+
+   .inner-menu {
+      margin-top: 50px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      gap: 20px;
+   }
+   .hero-details {
+      height: 100vh;
+   }
+   .details-left {
+      padding-top: 9rem;
+   }
+   .nav-menu {
+      background-color: rgba(0, 0, 0, 0.9);
+   }
+   .inner-menu ul {
+      margin-top: 50px;
+      padding: 15px 20px;
+   }
+   .inner-menu ul li {
+      text-align: center;
+      padding: 0;
+      gap: 5px;
+      font-size: 20px;
+      margin: 0;
+      line-height: 1.5;
+   }
+   .right-menu {
+      align-items: center;
+   }
+
+   nav {
+      left: 10%;
+      top: 5%;
+   }
+   .commercial-hr {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .commercial-hr img {
+      width: 100px;
+   }
+}
