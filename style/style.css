@@ -241,3 +241,47 @@
 .commercial-details p {
    font-size: 0.6rem;
 }
+
+.start-section {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: var(--white);
+   height: 100vh;
+}
+.inner-section {
+   width: 80%;
+   padding: 2rem;
+   display: flex;
+   justify-content: space-between;
+}
+.grey-section {
+   background-color: var(--background);
+}
+.section-title {
+   font-size: 2rem;
+}
+
+/* video section */
+.se-video {
+   width: 100%;
+   max-width: 800px;
+   height: 80%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+}
+
+.se-video iframe {
+   width: 100%;
+   height: 80%;
+   border: 10px solid var(--sef_primary);
+   border-radius: 10px;
+}
+
+/* milestones section */
+
+.milestones {
+   display: flex;
+   flex-direction: column;
+}

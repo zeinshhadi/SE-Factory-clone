@@ -51,4 +51,19 @@
    .commercial-hr img {
       width: 100px;
    }
+   .se-video {
+      width: 100%;
+      max-width: 800px;
+      height: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+   }
+
+   .se-video iframe {
+      width: 20%;
+      height: 50%;
+      border: 10px solid var(--sef_primary);
+      border-radius: 10px;
+   }
 }

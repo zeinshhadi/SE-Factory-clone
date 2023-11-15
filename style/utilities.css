@@ -53,6 +53,25 @@ nav i {
 .green-arrow {
    color: var(--sef_primary);
    font-weight: bolder;
-   font-size: 20px;
+   font-size: 35px;
    margin-right: 10px;
+}
+.circles {
+   display: flex;
+   gap: 10px;
+   align-items: center;
+}
+.circle-div {
+   height: 10px;
+   padding: 10px;
+   border-radius: 50%;
+}
+.circles .circle-div:nth-child(1) {
+   background-color: var(--black);
+}
+.circles .circle-div:nth-child(2) {
+   background-color: var(--grey);
+}
+.circles .circle-div:nth-child(3) {
+   background-color: var(--sef_primary);
 }
