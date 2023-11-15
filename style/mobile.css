@@ -1,11 +1,11 @@
-@media only screen and (max-width: 900px) {
-   .hero {
-      position: relative;
-   }
+@media only screen and (max-width: 600px) {
    .hero-parent {
       flex-direction: column;
+      height: 100%;
    }
-
+   .main-section {
+      position: inherit;
+   }
    .inner-menu {
       margin-top: 50px;
       flex-direction: column;
@@ -13,6 +13,9 @@
       justify-content: center;
       height: 100%;
       gap: 20px;
+   }
+   .inner-menu-ul {
+      margin-left: 0px;
    }
    .hero-details {
       height: 100vh;
@@ -35,6 +38,7 @@
    .inner-menu ul {
       margin-top: 50px;
       padding: 15px 20px;
+      margin-left: 0px;
    }
    .inner-menu ul li {
       text-align: center;
@@ -45,6 +49,7 @@
       line-height: 1.5;
    }
    .right-menu {
+      margin-top: 2rem;
       align-items: center;
    }
 
@@ -61,19 +66,13 @@
       width: 100px;
    }
    .se-video {
-      width: 100%;
-      max-width: 800px;
-      height: 80%;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
+      width: 87%;
+
+      height: 48%;
    }
 
-   .se-video iframe {
-      width: 20%;
-      height: 50%;
-      border: 10px solid var(--sef_primary);
-      border-radius: 10px;
+   .grey-section {
+      height: 100%;
    }
    .milestones-data {
       flex-direction: column;

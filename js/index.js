@@ -30,9 +30,11 @@ let typed = new Typed(".auto-input", {
    },
 });
 
-let navButton = document.querySelector("#nav-btn").addEventListener("click", displayMenu);
-let navMenu = document.querySelector(".nav-menu");
-let menuIcon = document.querySelector("#nav-btn");
+const navButton = document.querySelector("#nav-btn").addEventListener("click", displayMenu);
+const navMenu = document.querySelector(".nav-menu");
+const menuIcon = document.querySelector("#nav-btn");
+const mainSection = document.querySelector(".main-section");
+
 function displayMenu() {
    if (navMenu.style.display === "block") {
       navMenu.style.display = "none";

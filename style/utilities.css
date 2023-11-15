@@ -28,8 +28,10 @@
    line-height: 1;
    overflow-x: hidden;
 }
-.hero {
-   position: relative;
+.main-section {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
 }
 
 nav {
@@ -37,7 +39,7 @@ nav {
    justify-content: space-between;
    align-items: center;
    position: absolute;
-   z-index: 2;
+   z-index: 5;
    left: 10%;
    top: 10%;
    min-width: 80%;
@@ -53,7 +55,7 @@ nav i {
 .green-arrow {
    color: var(--sef_primary);
    font-weight: bolder;
-   font-size: 35px;
+   font-size: 25px;
    margin-right: 10px;
 }
 .circles {
