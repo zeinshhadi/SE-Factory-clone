@@ -584,8 +584,81 @@
    background-color: var(--black);
    color: white;
 }
+.faq-container {
+   width: 80%;
+}
+
+.faq-item {
+   margin-bottom: 10px;
+   color: var(--white);
+   border-radius: 10px;
+   overflow: hidden;
+   background-color: var(--black-2);
+}
+
+.faq-question {
+   background-color: var(--black-2);
+   padding: 10px;
+   cursor: pointer;
+}
+
+.faq-answer {
+   display: none;
+   padding: 10px;
+}
+
+.faq-item.open .faq-answer {
+   display: block;
+}
+
+#view-all {
+   cursor: pointer;
+   color: var(--white);
+   text-decoration: none;
+}
 /* contact us section */
 
 .contact-us {
    background-color: var(--sef_primary);
+}
+
+.contact-us-container {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   height: fit-content;
+}
+
+.directions {
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   background-color: var(--black);
+   color: var(--white);
+}
+.contact-form {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   background-color: var(--black);
+   color: var(--white);
+}
+
+.row {
+   display: flex;
+   justify-content: space-around;
+}
+.row-input {
+   display: flex;
+   flex-direction: column;
+}
+
+.contact-programs {
+   display: flex;
+   flex-direction: column;
+}
+
+.contact-program-titles {
+   display: flex;
+   justify-content: space-around;
 }

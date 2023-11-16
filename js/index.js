@@ -101,3 +101,20 @@ dots.forEach((dot, index) => {
       setSlide(index);
    });
 });
+
+const faqItems = document.querySelectorAll(".faq-item");
+const viewAll = document.getElementById("view-all");
+const allFaqs = document.getElementById("all-faqs");
+
+faqItems.forEach((item) => {
+   const question = item.querySelector(".faq-question");
+   const answer = item.querySelector(".faq-answer");
+
+   question.addEventListener("click", () => {
+      item.classList.toggle("open");
+   });
+});
+
+viewAll.addEventListener("click", () => {
+   allFaqs.classList.toggle("open");
+});
