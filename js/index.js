@@ -8,8 +8,8 @@ let typed = new Typed(".auto-input", {
   loop: true,
   loopCount: false,
   cursorChar: "_",
-  preStringTyped: function (arrayPos, self) {
-    switch (arrayPos) {
+  preStringTyped: function (index, self) {
+    switch (index) {
       case 0:
         colorOverlay.style.background = "var(--overlay-green)";
         typedInput.style.color = "var(--black)";
@@ -33,7 +33,6 @@ let typed = new Typed(".auto-input", {
 const navButton = document.querySelector("#nav-btn").addEventListener("click", displayMenu);
 const navMenu = document.querySelector(".nav-menu");
 const menuIcon = document.querySelector("#nav-btn");
-const mainSection = document.querySelector(".main-section");
 
 function displayMenu() {
   if (navMenu.style.display === "block") {
@@ -48,20 +47,30 @@ function displayMenu() {
 const tabs = document.querySelectorAll("[data-tab-target]");
 const tabContents = document.querySelectorAll("[data-tab-content]");
 const tabSection = document.getElementById("tabs-section");
-const tabSpan = document.getElementById("tab-span");
+
 tabs.forEach((tab) => {
   tab.addEventListener("click", () => {
     const target = document.querySelector(tab.dataset.tabTarget);
+    const tabSpans = target.querySelectorAll(".tab-span");
     tabContents.forEach((tabContent) => {
       tabContent.classList.remove("active");
     });
     tabs.forEach((tab) => {
       tab.classList.remove("active");
+      tab.style.color = "var(--black)";
     });
+
     tab.classList.add("active");
     target.classList.add("active");
+
     const sectionColor = tab.dataset.sectionColor;
     tabSection.style.backgroundColor = sectionColor;
+
+    tab.style.color = sectionColor;
+
+    tabSpans.forEach((span) => {
+      span.style.color = sectionColor;
+    });
   });
 });
 
@@ -81,24 +90,10 @@ function showSlide(event) {
   slides[event].style.display = "block";
   dots[event].classList.add("active");
 }
-
-function nextSlide() {
-  currentSlide = (currentSlide + 1) % slides.length;
-  showSlide(currentSlide);
-}
-
-function prevSlide() {
-  currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-  showSlide(currentSlide);
-}
-
 function setSlide(event) {
   currentSlide = event;
   showSlide(currentSlide);
 }
-
-setInterval(nextSlide, 5000);
-
 dots.forEach((dot, index) => {
   dot.addEventListener("click", () => {
     setSlide(index);

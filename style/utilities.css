@@ -1,124 +1,124 @@
 :root {
-   --white: #fcfcfd;
-   --black: #363738;
-   --pink_primary: #fb508e;
-   --sef_primary: #28eea7;
-   --grey: #a5a6a9;
-   --black-2: #232323;
-   --daf_primary: #fb4747;
-   --background: #f1f2f3;
-   --ylw_primary: #ffc635;
-   --ppl_primary: #9864da;
-   --overlay-black: rgba(35, 35, 35, 0.9);
-   --light_grey: #dcdee1;
-   --hrf_primary: #31b7f0;
-   --overlay-green: rgba(40, 238, 167, 0.9);
-   --ghost-white: #ecedf3;
-   --purple-overlay: rgba(152, 100, 218, 0.9);
+  --white: #fcfcfd;
+  --black: #363738;
+  --pink_primary: #fb508e;
+  --sef_primary: #28eea7;
+  --grey: #a5a6a9;
+  --black-2: #232323;
+  --daf_primary: #fb4747;
+  --background: #f1f2f3;
+  --ylw_primary: #ffc635;
+  --ppl_primary: #9864da;
+  --overlay-black: rgba(35, 35, 35, 0.9);
+  --light_grey: #dcdee1;
+  --hrf_primary: #31b7f0;
+  --overlay-green: rgba(40, 238, 167, 0.9);
+  --ghost-white: #ecedf3;
+  --purple-overlay: rgba(152, 100, 218, 0.9);
 }
 * {
-   box-sizing: border-box;
-   margin: 0;
-   font-family: Noto Sans Mono, sans-serif;
+  box-sizing: border-box;
+  font-family: Noto Sans Mono, sans-serif;
 }
 
 .body {
-   color: var(--black);
-   font-size: 16px;
-   line-height: 1;
-   overflow-x: hidden;
+  color: var(--black);
+  font-size: 16px;
+  margin: 0;
+  line-height: 1;
+  overflow-x: hidden;
 }
 .main-section {
-   display: flex;
-   flex-direction: column;
-   flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 nav {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   position: absolute;
-   z-index: 5;
-   left: 10%;
-   top: 10%;
-   min-width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 5;
+  left: 10%;
+  top: 10%;
+  min-width: 80%;
 }
 nav i {
-   color: var(--white);
-   font-size: 40px;
-   padding: 10px;
-   background-color: var(--black);
-   border-radius: 10px;
+  color: var(--white);
+  font-size: 40px;
+  padding: 10px;
+  background-color: var(--black);
+  border-radius: 10px;
 }
 
 .green-arrow {
-   color: var(--sef_primary);
-   font-weight: bolder;
-   font-size: 25px;
-   margin-right: 10px;
+  color: var(--sef_primary);
+  font-weight: bolder;
+  font-size: 25px;
+  margin-right: 10px;
 }
 .circles {
-   display: flex;
-   gap: 10px;
-   align-items: center;
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 .circle-div {
-   height: 10px;
-   padding: 10px;
-   border-radius: 50%;
+  height: 10px;
+  padding: 10px;
+  border-radius: 50%;
 }
 .circles .circle-div:nth-child(1) {
-   background-color: var(--black);
+  background-color: var(--black);
 }
 .circles .circle-div:nth-child(2) {
-   background-color: var(--grey);
+  background-color: var(--grey);
 }
 .circles .circle-div:nth-child(3) {
-   background-color: var(--sef_primary);
+  background-color: var(--sef_primary);
 }
 
 .circle-div-p {
-   height: 10px;
-   padding: 10px;
-   border-radius: 50%;
+  height: 10px;
+  padding: 10px;
+  border-radius: 50%;
 }
 .circles .circle-div-p:nth-child(1) {
-   background-color: var(--light_grey);
+  background-color: var(--light_grey);
 }
 .circles .circle-div-p:nth-child(2) {
-   background-color: var(--grey);
+  background-color: var(--grey);
 }
 .circles .circle-div-p:nth-child(3) {
-   background-color: var(--black-2);
+  background-color: var(--black-2);
 }
 
 .circle-div-h {
-   height: 10px;
-   padding: 10px;
-   border-radius: 50%;
+  height: 10px;
+  padding: 10px;
+  border-radius: 50%;
 }
 .circles .circle-div-h:nth-child(1) {
-   background-color: var(--ghost-white);
+  background-color: var(--ghost-white);
 }
 .circles .circle-div-h:nth-child(2) {
-   background-color: var(--grey);
+  background-color: var(--grey);
 }
 .circles .circle-div-h:nth-child(3) {
-   background-color: var(--sef_primary);
+  background-color: var(--sef_primary);
 }
 
 .circle-div-t {
-   height: 10px;
-   padding: 10px;
-   border-radius: 50%;
+  height: 10px;
+  padding: 10px;
+  border-radius: 50%;
 }
 .circles .circle-div-t:nth-child(1) {
-   background-color: var(--black);
+  background-color: var(--black);
 }
 .circles .circle-div-t:nth-child(2) {
-   background-color: var(--grey);
+  background-color: var(--grey);
 }
 .circles .circle-div-t:nth-child(3) {
-   background-color: var(--sef_primary);
+  background-color: var(--sef_primary);
 }
