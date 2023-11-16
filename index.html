@@ -1,548 +1,589 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="icon" type="image/x-icon" href="./assets/img/seIcon.ico" />
-      <title>SE Factory</title>
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@800&display=swap" rel="stylesheet" />
-      <link rel="stylesheet" href="./style/style.css" />
-      <link rel="stylesheet" href="./style/utilities.css" />
-      <link rel="stylesheet" href="./style/mobile.css" />
-      <link
-         rel="stylesheet"
-         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-         crossorigin="anonymous"
-         referrerpolicy="no-referrer" />
-   </head>
-   <body class="body">
-      <main class="main-section">
-         <div class="nav-menu">
-            <div class="inner-menu">
-               <div class="left-menu">
-                  <ul>
-                     <li>Home</li>
-                     <li>Hello world!</li>
-                     <li>Milestones</li>
-                     <li>Programs</li>
-                     <li>Hire talent</li>
-                     <li>testimonials</li>
-                     <li>FAQs</li>
-                     <li>Contact us</li>
-                     <li>Partners</li>
-                     <li>Newsletter</li>
-                  </ul>
-               </div>
-               <div class="right-menu">
-                  <div class="account-credentials">
-                     <div class="header-credentials">
-                        <h1><span class="green-arrow">></span> Account</h1>
-                        <p>/* Login with existing or create a new account in order to apply to SEF programs */</p>
-                     </div>
-                     <div class="action-credentials">
-                        <div class="account-btn log-in">LOG IN</div>
-                        <div class="account-btn sign-up">SIGN UP</div>
-                     </div>
-                  </div>
-                  <div class="commercial-hr">
-                     <img src="./assets/img/hr-badge.svg" alt="" />
-                     <div class="commercial-hr commercial-details">
-                        <h1>Global Companies,<br />Meet Lebanese Talent</h1>
-                        <p>All You Need to Launch a Local Team</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="hero">
-            <section class="hero-parent">
-               <header>
-                  <nav>
-                     <img src="/assets/img/se-logo.svg" alt="" />
-                     <div class="openMenu" id="nav-btn"><i class="fa fa-bars"></i></div>
-                  </nav>
-               </header>
-               <div class="hero-section hero-left">
-                  <div class="hero-section hero-left color-overlay" id="color-overlay">
-                     <div class="hero-details details-left" id="hero-left-details">
-                        <h1 class="hero-title title-left">
-                           <span class="title-span span-left">Want to become a</span>
-                           <br />
-                           <span class="hero-text-title auto-input"></span>
-                        </h1>
-                        <p class="hero-left-desc">
-                           Jumpstart your journey in tech with our courses in Computer Science, Full-Stack Web
-                           development, Data Engineering and UI/UX Design. Get hands-on experience and gain essential
-                           skills for a successful tech career.
-                        </p>
-                        <div class="hero-btn left">#GET_TRAINED</div>
-                     </div>
-                  </div>
-               </div>
-               <div class="hero-section hero-right" id="hero-right">
-                  <div class="hero-section color-overlay-right" id="color-overlay">
-                     <div class="hero-details details-right">
-                        <h1 class="hero-title title-right">
-                           <span class="title-span span-right">Want to become a</span>
-                           <br />
-                           <span class="hero-text-title">JOB-READY TECH TALENT ?</span>
-                        </h1>
-                        <p class="hero-right-desc">
-                           Look no further than our comprehensive talent matching and placement services! Our expert
-                           team will connect you with highly trained and skilled developers who are ready to hit the
-                           ground running and drive your success.
-                        </p>
-                        <div class="hero-btn right">#HIRE_TALENT</div>
-                     </div>
-                  </div>
-               </div>
-            </section>
-         </div>
-         <!--Hello world ! section-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/img/seIcon.ico" />
+    <title>SE Factory</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-         <section class="start-section grey-section">
-            <div class="inner-section">
-               <div class="header-section section-title">
-                  <span class="green-arrow" style="font-size: 35px">></span> Hello Wolrd!
-               </div>
-               <div class="circles">
-                  <div class="circle-div circle-black"></div>
-                  <div class="circle-div circle-grey"></div>
-                  <div class="circle-div circle-green"></div>
-               </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/utilities.css" />
+    <link rel="stylesheet" href="./style/mobile.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+  </head>
+  <body class="body">
+    <main class="main-section">
+      <div class="nav-menu">
+        <div class="inner-menu">
+          <div class="left-menu">
+            <ul>
+              <li>Home</li>
+              <li>Hello world!</li>
+              <li>Milestones</li>
+              <li>Programs</li>
+              <li>Hire talent</li>
+              <li>testimonials</li>
+              <li>FAQs</li>
+              <li>Contact us</li>
+              <li>Partners</li>
+              <li>Newsletter</li>
+            </ul>
+          </div>
+          <div class="right-menu">
+            <div class="account-credentials">
+              <div class="header-credentials">
+                <h1><span class="green-arrow">></span> Account</h1>
+                <p>/* Login with existing or create a new account in order to apply to SEF programs */</p>
+              </div>
+              <div class="action-credentials">
+                <div class="account-btn log-in">LOG IN</div>
+                <div class="account-btn sign-up">SIGN UP</div>
+              </div>
             </div>
-            <div class="se-video">
-               <iframe
-                  src="https://www.youtube.com/embed/vG7SYQjODTs?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0"
-                  frameborder="0"
-                  allow="autoplay; encrypted-media"
-                  allowfullscreen=""
-                  style="width: 100%; height: 100%">
-               </iframe>
+            <div class="commercial-hr">
+              <img src="./assets/img/hr-badge.svg" alt="" />
+              <div class="commercial-hr commercial-details">
+                <h1>Global Companies,<br />Meet Lebanese Talent</h1>
+                <p>All You Need to Launch a Local Team</p>
+              </div>
             </div>
-         </section>
+          </div>
+        </div>
+      </div>
+      <div class="hero">
+        <section class="hero-parent">
+          <header>
+            <nav>
+              <img src="/assets/img/se-logo.svg" alt="" />
+              <div class="openMenu" id="nav-btn"><i class="fa fa-bars"></i></div>
+            </nav>
+          </header>
+          <div class="hero-section hero-left">
+            <div class="hero-section hero-left color-overlay" id="color-overlay">
+              <div class="hero-details details-left" id="hero-left-details">
+                <h1 class="hero-title title-left">
+                  <span class="title-span span-left">Want to become a</span>
+                  <br />
+                  <span class="hero-text-title auto-input"></span>
+                </h1>
+                <p class="hero-left-desc">
+                  Jumpstart your journey in tech with our courses in Computer Science, Full-Stack Web development, Data
+                  Engineering and UI/UX Design. Get hands-on experience and gain essential skills for a successful tech
+                  career.
+                </p>
+                <div class="hero-btn left">#GET_TRAINED</div>
+              </div>
+            </div>
+          </div>
+          <div class="hero-section hero-right" id="hero-right">
+            <div class="hero-section color-overlay-right" id="color-overlay">
+              <div class="hero-details details-right">
+                <h1 class="hero-title title-right">
+                  <span class="title-span span-right">Want to become a</span>
+                  <br />
+                  <span class="hero-text-title">JOB-READY TECH TALENT ?</span>
+                </h1>
+                <p class="hero-right-desc">
+                  Look no further than our comprehensive talent matching and placement services! Our expert team will
+                  connect you with highly trained and skilled developers who are ready to hit the ground running and
+                  drive your success.
+                </p>
+                <div class="hero-btn right">#HIRE_TALENT</div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!--Hello world ! section-->
 
-         <!--milestones section-->
-         <section class="start-section milestones-section">
-            <div class="inner-section">
-               <div class="header-section section-title"><span class="green-arrow">></span> Milestones</div>
-               <div class="circles">
-                  <div class="circle-div circle-black"></div>
-                  <div class="circle-div circle-grey"></div>
-                  <div class="circle-div circle-green"></div>
-               </div>
-            </div>
-            <div class="milestones-data">
-               <div class="inner-milestone milestone-left">
-                  <div class="percentage">90%</div>
-                  <div class="success-rate">
-                     <h1>employment success rate</h1>
-                     <ul class="success-list">
-                        <li>- Supported the employment of 250+ youth</li>
-                        <li>- 50% working remotely from Lebanon</li>
-                        <li>- Average salary today $1,300</li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="inner-milestone milestone-right">
-                  <div class="upper-right-milestone">
-                     <div class="inner-milestone trained">
-                        <h1>1,000+</h1>
-                        <p class="inner-p">youth trained since 2016</p>
-                     </div>
-                     <div class="inner-milestone hiring-companies">
-                        <div class="hiring-inner">10+</div>
-                        <p class="inner-p">youth trained since 2016</p>
-                     </div>
-                  </div>
-                  <div class="inner-milestone lower-right-milestone">
-                     <div class="inner-milestone grads">
-                        <div class="grads-number">300+</div>
-                        <p class="inner-p">graduated Full-Stack web developers</p>
-                     </div>
-                     <div class="inner-milestone recruitment-global">
-                        <div class="rec-number">220+</div>
-                        <p class="inner-p" style="font-size: 15px; font-weight: normal">
-                           global recruitment<br />
-                           partner companies
-                        </p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </section>
+      <section class="start-section grey-section">
+        <div class="inner-section">
+          <div class="header-section section-title">
+            <span class="green-arrow" style="font-size: 35px">></span> Hello Wolrd!
+          </div>
+          <div class="circles">
+            <div class="circle-div circle-black"></div>
+            <div class="circle-div circle-grey"></div>
+            <div class="circle-div circle-green"></div>
+          </div>
+        </div>
+        <div class="se-video">
+          <iframe
+            src="https://www.youtube.com/embed/vG7SYQjODTs?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen=""
+            style="width: 100%; height: 100%">
+          </iframe>
+        </div>
+      </section>
 
-         <section class="start-section programs-section">
-            <div class="inner-section">
-               <div class="header-section section-title programs-title">
-                  <span class="green-arrow">></span> Prorgrams
-               </div>
-               <div class="circles">
-                  <div class="circle-div-p"></div>
-                  <div class="circle-div-p"></div>
-                  <div class="circle-div-p circle-black"></div>
-               </div>
+      <!--milestones section-->
+      <section class="start-section milestones-section">
+        <div class="inner-section">
+          <div class="header-section section-title"><span class="green-arrow">></span> Milestones</div>
+          <div class="circles">
+            <div class="circle-div circle-black"></div>
+            <div class="circle-div circle-grey"></div>
+            <div class="circle-div circle-green"></div>
+          </div>
+        </div>
+        <div class="milestones-data">
+          <div class="inner-milestone milestone-left">
+            <div class="percentage">90%</div>
+            <div class="success-rate">
+              <h1>employment success rate</h1>
+              <ul class="success-list">
+                <li>- Supported the employment of 250+ youth</li>
+                <li>- 50% working remotely from Lebanon</li>
+                <li>- Average salary today $1,300</li>
+              </ul>
             </div>
-            <div class="tabs">
-               <ul class="tabs-list">
-                  <li data-tab-target="#fcs-content" class="active tab">FCS</li>
-                  <li data-tab-target="#fsw-content" class="tab">FSW</li>
-                  <li data-tab-target="#fsd-content" class="tab">FSD</li>
-                  <li data-tab-target="#ui-content" class="tab">UI/UX</li>
-               </ul>
-               <div data-tab-content id="fcs-content" class="active">
-                  <div class="inner-container">
-                     <div class="inner-tab-left">
-                        <div class="inner-tab-fcs">
-                           <div class="tab-title">
-                              <span class="tab-span">> FCS:</span> Foundations of Computer Science
-                           </div>
-                           <p class="tab-desc">
-                              // This 9-week course covers fundamental topics in computer science, including data
-                              structures, algorithms, and foundational concepts. It is suitable for coding enthusiasts,
-                              former computer science students, and beginners who wish to learn Python programming,
-                              object-oriented programming, file systems, and more. The course includes online video
-                              materials, assignments, and instructor-led sessions.
-                           </p>
-                           <div class="tab-bottom">
-                              <div class="nxt-course">
-                                 next course date | <span class="tab-span">To be confirmed</span>
-                              </div>
-                              <div class="learn">LEARN MORE ></div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="inner-tab-right">
-                        <img src="./assets/img/fcs-pic.png" alt="" width="300" height="300" />
-                     </div>
-                  </div>
-               </div>
-               <div data-tab-content id="fsw-content">
-                  <div class="inner-container">
-                     <div class="inner-tab-left">
-                        <div class="tab-title"><span class="tab-span">> FSW:</span> Full-Stack Web Development</div>
-                        <p class="tab-desc">
-                           // Our 14-week bootcamp is designed to equip aspiring developers with the technical and
-                           interpersonal skills needed to become professional software engineers. Participants will
-                           learn essential concepts such as Version Control, Object-Oriented Programming, Database
-                           Management Systems, MVC Design Patterns, Dependency Management, modern Web Frameworks, and
-                           AWS. The program also includes a soft-skills curriculum covering Communication &
-                           Interpersonal Skills, Professional Writing, Technical Presentations, Negotiation, and
-                           Interviewing, which will be taught through lectures, weekly projects, tech talks, and a final
-                           project to showcase their learning.
-                        </p>
-                        <div class="tab-bottom">
-                           <div class="nxt-course">
-                              next course date | <span class="tab-span">To be confirmed</span>
-                           </div>
-                           <div class="learn">LEARN MORE ></div>
-                        </div>
-                     </div>
-                     <div class="inner-tab-right">
-                        <img src="./assets/img/fsw-pic.png" alt="" width="300" height="300" />
-                     </div>
-                  </div>
-               </div>
-               <div data-tab-content id="fsd-content">
-                  <div class="inner-container">
-                     <div class="inner-tab-left">
-                        <div class="tab-title"><span class="tab-span">> FSD:</span> Full-Stack Data</div>
-                        <p class="tab-desc">
-                           // SE Factory's 12-week Full-Stack Data course offers robust training in data analysis and
-                           engineering. Participants learn to handle large data sets with Python and use libraries like
-                           Pandas, NumPy, and Matplotlib for data manipulation and visualization. The course also delves
-                           into cloud orchestration, distributed computing, relational databases, and SQL basics.
-                           Hands-on projects provide real-world data analysis experience. Upon completion, students gain
-                           proficiency in Python for analytics, understand data warehousing, and can effectively
-                           visualize and present data insights.
-                        </p>
-                        <div class="tab-bottom">
-                           <div class="nxt-course">
-                              next course date | <span class="tab-span">To be confirmed</span>
-                           </div>
-                           <div class="learn">LEARN MORE ></div>
-                        </div>
-                     </div>
-                     <div class="inner-tab-right">
-                        <img src="./assets/img/fsd-pic.png" alt="" width="300" height="300" />
-                     </div>
-                  </div>
-               </div>
-               <div data-tab-content id="ui-content">
-                  <div class="inner-container">
-                     <div class="inner-tab-left">
-                        <div class="tab-title"><span class="tab-span">> UIX:</span> UI/UX Design Bootcamp</div>
-                        <p class="tab-desc">
-                           // SE Factory's 6-week UI/UX course offers immersive learning in UI/UX design. It encompasses
-                           the essentials of UI/UX, from mastering Figma, color psychology, typography to UX heuristics,
-                           prototyping and WCAG guidelines. Learners work on projects, transforming wireframes into
-                           mockups, and creating responsive interfaces. The course culminates in a final project,
-                           enabling students to conduct a thorough UX audit, revamp a website, and create a
-                           well-documented case study. Graduates leave equipped with a polished portfolio and
-                           market-ready skills in UI/UX design.
-                        </p>
-                        <div class="tab-bottom">
-                           <div class="nxt-course">
-                              next course date | <span class="tab-span">To be confirmed</span>
-                           </div>
-                           <div class="learn">LEARN MORE ></div>
-                        </div>
-                     </div>
-                     <div class="inner-tab-right">
-                        <img src="./assets/img/ui-pic.png" alt="" width="300" height="300" />
-                     </div>
-                  </div>
-               </div>
+          </div>
+          <div class="inner-milestone milestone-right">
+            <div class="upper-right-milestone">
+              <div class="inner-milestone trained">
+                <h1>1,000+</h1>
+                <p class="inner-p">youth trained since 2016</p>
+              </div>
+              <div class="inner-milestone hiring-companies">
+                <div class="hiring-inner">10+</div>
+                <p class="inner-p">youth trained since 2016</p>
+              </div>
             </div>
-         </section>
-         <section class="start-section hire-section">
-            <div class="inner-section">
-               <div class="header-section section-title hire-title"><span class="green-arrow">></span> Hire Talent</div>
-               <div class="circles">
-                  <div class="circle-div-h"></div>
-                  <div class="circle-div-h"></div>
-                  <div class="circle-div-h"></div>
-               </div>
+            <div class="inner-milestone lower-right-milestone">
+              <div class="inner-milestone grads">
+                <div class="grads-number">300+</div>
+                <p class="inner-p">graduated Full-Stack web developers</p>
+              </div>
+              <div class="inner-milestone recruitment-global">
+                <div class="rec-number">220+</div>
+                <p class="inner-p" style="font-size: 15px; font-weight: normal">
+                  global recruitment<br />
+                  partner companies
+                </p>
+              </div>
             </div>
-            <div class="hire-container">
-               <div class="upper-container-hire">
-                  <h1>Become a Recruitment Partner</h1>
-                  <div class="hire-section-span">
-                     220+ companies from over 10 countries have joined our network since 2016
-                  </div>
-                  <ol class="oredered-hire-list">
-                     <li>Exclusive, direct, and streamlined access to our graduating cycles</li>
-                     <li>Candidate insights from instructors and personalized recommendations</li>
-                     <li>Interviews at will</li>
-                     <li>Tech talks participation and engagement with students opportunities</li>
-                  </ol>
-                  <p>Are you on the hunt for exceptional rising junior developers? Look no further than SE Factory!</p>
-                  <div class="contact-hire-btn">CONTACT US ></div>
-               </div>
-               <div class="lower-container">
-                  <p>Want to launch a local team ?</p>
-                  <p>check out</p>
-                  <div class="img-hr"><img src="./assets/img/hr-factory.svg" alt="" /></div>
-               </div>
-            </div>
-         </section>
-         <section class="start-section testimonials">
-            <div class="inner-section">
-               <div class="header-section section-title testimonial-title">
-                  <span class="green-arrow">></span> Testimonials
-               </div>
-               <div class="circles">
-                  <div class="circle-div-t"></div>
-                  <div class="circle-div-t"></div>
-                  <div class="circle-div-t"></div>
-               </div>
-            </div>
-            <div class="testimonial-container">
-               <div class="upper-testimonial">
-                  <div class="testimonial-slide">
-                     <div class="inner-testimonial-slide">
-                        <p>
-                           Growing up, I saw that every girl that had taken interest in anything technical or scientific
-                           had been undermined and underestimated in her field. That isn't fair, breaking this
-                           stereotype is a must. The first step I took towards doing this was to join SEF, a bootcamp
-                           that supported diversity and inclusion.
-                        </p>
-                        <img src="./assets/img/testimonial-1.png" alt="" />
-                     </div>
-                  </div>
-                  <div class="testimonial-slide">
-                     <div class="inner-testimonial-slide">
-                        <p>
-                           Looking back, I cannot believe that only a year ago, I knew almost nothing about programming,
-                           and now I am a professional software engineer working remotely for a startup located in
-                           Norway. The boot camp was a life-changing experience for me.
-                        </p>
-                        <img src="./assets/img/testimonial-2.png" alt="" />
-                     </div>
-                  </div>
-                  <div class="testimonial-slide">
-                     <div class="inner-testimonial-slide">
-                        <p>
-                           Hiring skilled engineers has never been easy. With SE Factory, this became super easy and
-                           effective. Candidates are well-trained and we get to see their strengths before hiring, which
-                           is perfect for a growing startup.
-                        </p>
+          </div>
+        </div>
+      </section>
 
-                        <img src="./assets/img/testimonial-3.jpeg" alt="" />
-                     </div>
-                  </div>
-                  <div class="testimonial-slide">
-                     <div class="inner-testimonial-slide">
-                        <p>
-                           Our business is expanding thanks to talented and dedicated team members that we hired through
-                           SE Factory. Looking forward to hiring more developers from them as we grow. ‍
-                        </p>
-                        <img src="./assets/img/testimonial-4.jpeg" alt="" />
-                     </div>
-                  </div>
-               </div>
-               <div class="testimonial-dots">
-                  <span class="dot"></span>
-                  <span class="dot"></span>
-                  <span class="dot"></span>
-                  <span class="dot"></span>
-               </div>
-            </div>
-         </section>
-         <section class="start-section faqs">
-            <div class="inner-section">
-               <div class="header-section section-title faq-title"><span class="green-arrow">></span> FAQS</div>
-               <div class="circles">
-                  <div class="circle-div-h"></div>
-                  <div class="circle-div-h"></div>
-                  <div class="circle-div-h"></div>
-               </div>
-            </div>
+      <section class="start-section programs-section" id="tabs-section" data-default-color="">
+        <div class="inner-section">
+          <div class="header-section section-title programs-title"><span class="green-arrow">></span> Prorgrams</div>
+          <div class="circles">
+            <div class="circle-div-p"></div>
+            <div class="circle-div-p"></div>
+            <div class="circle-div-p circle-black"></div>
+          </div>
+        </div>
+        <div class="tabs" id="tabs">
+          <ul class="tabs-list">
+            <li data-tab-target="#fcs-content" data-section-color="var(--ylw_primary)" class="tab">FCS</li>
+            <li data-tab-target="#fsw-content" data-section-color="var(--sef_primary)" class="active tab">FSW</li>
+            <li data-tab-target="#fsd-content" data-section-color="var(--ppl_primary)" class="tab">FSD</li>
+            <li data-tab-target="#ui-content" data-section-color="var(--pink_primary)" class="tab">UI/UX</li>
+          </ul>
+          <div data-tab-content id="fcs-content" class="active">
+            <div class="inner-container">
+              <div class="inner-tab-left">
+                <span class="tab-span" data-span-color="var(--ylw_primary)" id="tab-span">> FCS:</span>
+                Foundations of Computer Science
 
-            <div class="faq-container">
-               <div class="faq-item">
-                  <div class="faq-question">
-                     <span class="green-arrow">></span>What is the Difference Between the FSW Bootcamp &amp; the FCS
-                     Program?
+                <p class="tab-desc">
+                  // This 9-week course covers fundamental topics in computer science, including data structures,
+                  algorithms, and foundational concepts. It is suitable for coding enthusiasts, former computer science
+                  students, and beginners who wish to learn Python programming, object-oriented programming, file
+                  systems, and more. The course includes online video materials, assignments, and instructor-led
+                  sessions.
+                </p>
+                <div class="tab-bottom">
+                  <div class="nxt-course">
+                    next course date |
+                    <span class="tab-span" data-span-color="var(--ylw_primary)" id="tab-span">To be confirmed</span>
                   </div>
-                  <div class="faq-answer">
-                     FCS covers the foundational concepts of programming. It’s a starting point for those new to
-                     programming or a refresher for those who studied computer science before. Knowledge of the concepts
-                     provided in FCS is required for FSW. It can also be taken ‘informally’ for free if you do not plan
-                     to continue to FSW Bootcamp or you are unable to commit to the online courses via Udemy: Free
-                     Computer Science Tutorial - Foundations of Computer Science: Theory and Practice. The FSW Bootcamp
-                     offers holistic training in web development (coding, designing, testing, and bug fixing). It
-                     tackles advanced technical concepts and offers soft skills training that prepares you for the job
-                     market. FCS requires only a part-time commitment, and FSW requires a full-time commitment. Please
-                     note that both are intensive and require your commitment and dedication
-                  </div>
-               </div>
+                  <div class="learn">LEARN MORE ></div>
+                </div>
+              </div>
+              <div class="inner-tab-right">
+                <img src="./assets/img/fcs-pic.png" alt="" width="300" height="300" />
+              </div>
+            </div>
+          </div>
+          <div data-tab-content id="fsw-content">
+            <div class="inner-container">
+              <div class="inner-tab-left">
+                <div class="tab-title"><span class="tab-span">> FSW:</span> Full-Stack Web Development</div>
+                <p class="tab-desc">
+                  // Our 14-week bootcamp is designed to equip aspiring developers with the technical and interpersonal
+                  skills needed to become professional software engineers. Participants will learn essential concepts
+                  such as Version Control, Object-Oriented Programming, Database Management Systems, MVC Design
+                  Patterns, Dependency Management, modern Web Frameworks, and AWS. The program also includes a
+                  soft-skills curriculum covering Communication & Interpersonal Skills, Professional Writing, Technical
+                  Presentations, Negotiation, and Interviewing, which will be taught through lectures, weekly projects,
+                  tech talks, and a final project to showcase their learning.
+                </p>
+                <div class="tab-bottom">
+                  <div class="nxt-course">next course date | <span class="tab-span">To be confirmed</span></div>
+                  <div class="learn">LEARN MORE ></div>
+                </div>
+              </div>
+              <div class="inner-tab-right">
+                <img src="./assets/img/fsw-pic.png" alt="" width="300" height="300" />
+              </div>
+            </div>
+          </div>
+          <div data-tab-content id="fsd-content">
+            <div class="inner-container">
+              <div class="inner-tab-left">
+                <div class="tab-title"><span class="tab-span">> FSD:</span> Full-Stack Data</div>
+                <p class="tab-desc">
+                  // SE Factory's 12-week Full-Stack Data course offers robust training in data analysis and
+                  engineering. Participants learn to handle large data sets with Python and use libraries like Pandas,
+                  NumPy, and Matplotlib for data manipulation and visualization. The course also delves into cloud
+                  orchestration, distributed computing, relational databases, and SQL basics. Hands-on projects provide
+                  real-world data analysis experience. Upon completion, students gain proficiency in Python for
+                  analytics, understand data warehousing, and can effectively visualize and present data insights.
+                </p>
+                <div class="tab-bottom">
+                  <div class="nxt-course">next course date | <span class="tab-span">To be confirmed</span></div>
+                  <div class="learn">LEARN MORE ></div>
+                </div>
+              </div>
+              <div class="inner-tab-right">
+                <img src="./assets/img/fsd-pic.png" alt="" width="300" height="300" />
+              </div>
+            </div>
+          </div>
+          <div data-tab-content id="ui-content">
+            <div class="inner-container">
+              <div class="inner-tab-left">
+                <div class="tab-title"><span class="tab-span">> UIX:</span> UI/UX Design Bootcamp</div>
+                <p class="tab-desc">
+                  // SE Factory's 6-week UI/UX course offers immersive learning in UI/UX design. It encompasses the
+                  essentials of UI/UX, from mastering Figma, color psychology, typography to UX heuristics, prototyping
+                  and WCAG guidelines. Learners work on projects, transforming wireframes into mockups, and creating
+                  responsive interfaces. The course culminates in a final project, enabling students to conduct a
+                  thorough UX audit, revamp a website, and create a well-documented case study. Graduates leave equipped
+                  with a polished portfolio and market-ready skills in UI/UX design.
+                </p>
+                <div class="tab-bottom">
+                  <div class="nxt-course">next course date | <span class="tab-span">To be confirmed</span></div>
+                  <div class="learn">LEARN MORE ></div>
+                </div>
+              </div>
+              <div class="inner-tab-right">
+                <img src="./assets/img/ui-pic.png" alt="" width="300" height="300" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="start-section hire-section">
+        <div class="inner-section">
+          <div class="header-section section-title hire-title"><span class="green-arrow">></span> Hire Talent</div>
+          <div class="circles">
+            <div class="circle-div-h"></div>
+            <div class="circle-div-h"></div>
+            <div class="circle-div-h"></div>
+          </div>
+        </div>
+        <div class="hire-container">
+          <div class="upper-container-hire">
+            <h1>Become a Recruitment Partner</h1>
+            <div class="hire-section-span">
+              220+ companies from over 10 countries have joined our network since 2016
+            </div>
+            <ol class="oredered-hire-list">
+              <li>Exclusive, direct, and streamlined access to our graduating cycles</li>
+              <li>Candidate insights from instructors and personalized recommendations</li>
+              <li>Interviews at will</li>
+              <li>Tech talks participation and engagement with students opportunities</li>
+            </ol>
+            <p>Are you on the hunt for exceptional rising junior developers? Look no further than SE Factory!</p>
+            <div class="contact-hire-btn">CONTACT US ></div>
+          </div>
+          <div class="lower-container">
+            <p>Want to launch a local team ?</p>
+            <p>check out</p>
+            <div class="img-hr"><img src="./assets/img/hr-factory.svg" alt="" /></div>
+          </div>
+        </div>
+      </section>
+      <section class="start-section testimonials">
+        <div class="inner-section">
+          <div class="header-section section-title testimonial-title">
+            <span class="green-arrow">></span> Testimonials
+          </div>
+          <div class="circles">
+            <div class="circle-div-t"></div>
+            <div class="circle-div-t"></div>
+            <div class="circle-div-t"></div>
+          </div>
+        </div>
+        <div class="testimonial-container">
+          <div class="upper-testimonial">
+            <div class="testimonial-slide">
+              <div class="inner-testimonial-slide">
+                <p>
+                  Growing up, I saw that every girl that had taken interest in anything technical or scientific had been
+                  undermined and underestimated in her field. That isn't fair, breaking this stereotype is a must. The
+                  first step I took towards doing this was to join SEF, a bootcamp that supported diversity and
+                  inclusion.
+                </p>
+                <img src="./assets/img/testimonial-1.png" alt="" />
+              </div>
+            </div>
+            <div class="testimonial-slide">
+              <div class="inner-testimonial-slide">
+                <p>
+                  Looking back, I cannot believe that only a year ago, I knew almost nothing about programming, and now
+                  I am a professional software engineer working remotely for a startup located in Norway. The boot camp
+                  was a life-changing experience for me.
+                </p>
+                <img src="./assets/img/testimonial-2.png" alt="" />
+              </div>
+            </div>
+            <div class="testimonial-slide">
+              <div class="inner-testimonial-slide">
+                <p>
+                  Hiring skilled engineers has never been easy. With SE Factory, this became super easy and effective.
+                  Candidates are well-trained and we get to see their strengths before hiring, which is perfect for a
+                  growing startup.
+                </p>
 
-               <div class="faq-item">
-                  <div class="faq-question"><span class="green-arrow">></span> Where do I apply?</div>
-                  <div class="faq-answer">
-                     Go to the Get Trained section of this website and select the appropriate program for you.
-                  </div>
-               </div>
+                <img src="./assets/img/testimonial-3.jpeg" alt="" />
+              </div>
+            </div>
+            <div class="testimonial-slide">
+              <div class="inner-testimonial-slide">
+                <p>
+                  Our business is expanding thanks to talented and dedicated team members that we hired through SE
+                  Factory. Looking forward to hiring more developers from them as we grow. ‍
+                </p>
+                <img src="./assets/img/testimonial-4.jpeg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </section>
+      <section class="start-section faqs-section">
+        <div class="inner-section">
+          <div class="header-section section-title faq-title"><span class="green-arrow">></span> FAQS</div>
+          <div class="circles">
+            <div class="circle-div-h"></div>
+            <div class="circle-div-h"></div>
+            <div class="circle-div-h"></div>
+          </div>
+        </div>
 
-               <div class="faq-item">
-                  <div class="faq-question"><span class="green-arrow">></span>What programs do you offer?</div>
-                  <div class="faq-answer">
-                     We currently offer four programs: ‍ FCS: Foundations of Computer Science FSW: Full Stack Web
-                     Development FSD: Full Stack Data UIX: UI/UX Design Bootcamp ‍ Please, find the descriptions for
-                     each program below.
-                  </div>
-               </div>
+        <div class="faq-container" id="faq-container">
+          <div class="faq-item">
+            <div class="faq-header" id="faq-header">
+              <div class="faq-question">
+                <span class="green-arrow">></span>What is the Difference Between the FSW Bootcamp the FCS Program?
+              </div>
+              <div class="arrow-down" id="arrow-down"><i class="fa fa-angle-down"></i></div>
+            </div>
+            <div class="faq-answer">
+              FCS covers the foundational concepts of programming. It’s a starting point for those new to programming or
+              a refresher for those who studied computer science before. Knowledge of the concepts provided in FCS is
+              required for FSW. It can also be taken ‘informally’ for free if you do not plan to continue to FSW
+              Bootcamp or you are unable to commit to the online courses via Udemy: Free Computer Science Tutorial -
+              Foundations of Computer Science: Theory and Practice. The FSW Bootcamp offers holistic training in web
+              development (coding, designing, testing, and bug fixing). It tackles advanced technical concepts and
+              offers soft skills training that prepares you for the job market. FCS requires only a part-time
+              commitment, and FSW requires a full-time commitment. Please note that both are intensive and require your
+              commitment and dedication
+            </div>
+          </div>
 
-               <div id="view-all">View All ></div>
+          <div class="faq-item">
+            <div class="faq-header" id="faq-header">
+              <div class="faq-question"><span class="green-arrow">></span> Where do I apply?</div>
+              <div class="arrow-down" id="arrow-down"><i class="fa fa-angle-down"></i></div>
             </div>
-         </section>
-         <section class="start-section contact-us">
-            <div class="inner-section">
-               <div class="header-section section-title programs-title">
-                  <span class="green-arrow">></span> Contact Us
-               </div>
-               <div class="circles">
-                  <div class="circle-div-p"></div>
-                  <div class="circle-div-p"></div>
-                  <div class="circle-div-p"></div>
-               </div>
+            <div class="faq-answer">
+              Go to the Get Trained section of this website and select the appropriate program for you.
             </div>
-            <div class="contact-us-container">
-               <div class="directions">
-                  <p>> Get directions</p>
-                  <div class="map">maps</div>
-                  <div class="location">// SE Factory</div>
-               </div>
-               <div class="contact-form">
-                  <div class="form-header">
-                     <div class="topic">> Contact form</div>
-                     <div class="se-mail">info@sefactory.io</div>
-                     <p>Beirut Digital District BDD 1243 Basement (Floor -1)</p>
-                  </div>
-                  <div class="form-body">
-                     <div class="row">
-                        <div class="row-input">
-                           <div class="input-title">// first name</div>
-                           <input placeholder="First name" />
-                        </div>
-                        <div class="row-input">
-                           <div class="input-title">// Last name</div>
-                           <input placeholder="Last name" />
-                        </div>
-                     </div>
-                     <div class="row">
-                        <div class="row-input">
-                           <div class="input-title">// Email</div>
-                           <input placeholder="Email" />
-                        </div>
-                        <div class="row-input">
-                           <div class="input-title">// Phone number</div>
-                           <input placeholder="Phone number" />
-                        </div>
-                     </div>
-                     <div class="contact-programs">
-                        <p>// what can we help you with?</p>
-                        <div class="contact-program-titles">
-                           <input type="radio" />
-                           <h4>FCS</h4>
-                           <input type="radio" />
-                           <h4>FSW</h4>
-                           <input type="radio" />
-                           <h4>FCD</h4>
-                           <input type="radio" />
-                           <h4>UIX</h4>
-                           <input type="radio" />
-                           <h4>Hire Talent</h4>
-                           <input type="radio" />
-                           <h4>Other</h4>
-                        </div>
-                     </div>
-                     <div class="inquiry">
-                        <p>// inquiry</p>
-                        <input type="text-area" placeholder="what we can help you with?" />
-                     </div>
-                     <div class="contact-submit-btn">Submit</div>
-                  </div>
-               </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-header" id="faq-header">
+              <div class="faq-question"><span class="green-arrow">></span>What programs do you offer?</div>
+              <div class="arrow-down" id="arrow-down"><i class="fa fa-angle-down"></i></div>
             </div>
-         </section>
-         <!--Partners section-->
-         <section class="start-section partners">
-            <div class="inner-section">
-               <div class="header-section section-title programs-title">
-                  <span class="green-arrow">></span> Partners
-               </div>
-               <div class="circles">
-                  <div class="circle-div-t"></div>
-                  <div class="circle-div-t"></div>
-                  <div class="circle-div-t"></div>
-               </div>
+            <div class="faq-answer">
+              We currently offer four programs: ‍ FCS: Foundations of Computer Science FSW: Full Stack Web Development
+              FSD: Full Stack Data UIX: UI/UX Design Bootcamp ‍ Please, find the descriptions for each program below.
             </div>
-            <div class="partners-container">
-               <div class="row-partners">
-                  <img src="./assets/img/alfanar.png" alt="" />
-                  <img src="./assets/img/life.png" alt="" />
-                  <img src="./assets/img/isdb.png" alt="" />
-                  <img src="./assets/img/spark.png" alt="" />
-                  <img src="./assets/img/gil.png" alt="" />
-                  <img src="./assets/img/netherlands.png" alt="" />
-               </div>
-               <div class="row-partners">
-                  <img src="./assets/img/abdulaziz.png" alt="" />
-                  <img src="./assets/img/unicef.png" alt="" />
-                  <img src="./assets/img/drosos.png" alt="" />
-                  <img src="./assets/img/giz.png" alt="" />
-                  <img src="./assets/img/german.png" alt="" />
-                  <img src="./assets/img/michelkhalaf.png" alt="" />
-               </div>
+          </div>
+
+          <div class="view-all">View All ></div>
+        </div>
+      </section>
+      <section class="start-section contact-us">
+        <div class="inner-section">
+          <div class="header-section section-title programs-title"><span class="green-arrow">></span> Contact Us</div>
+          <div class="circles">
+            <div class="circle-div-p"></div>
+            <div class="circle-div-p"></div>
+            <div class="circle-div-p"></div>
+          </div>
+        </div>
+        <div class="contact-us-container">
+          <div class="directions">
+            <p>> Get directions</p>
+            <div class="map">maps</div>
+            <div class="location">// SE Factory</div>
+          </div>
+          <div class="contact-form">
+            <div class="form-header">
+              <div class="topic">> Contact form</div>
+              <div class="se-mail">info@sefactory.io</div>
+              <p>Beirut Digital District BDD 1243 Basement (Floor -1)</p>
             </div>
-         </section>
-      </main>
-      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-      <script src="./js/index.js"></script>
-   </body>
+            <div class="form-body">
+              <div class="row">
+                <div class="row-input">
+                  <div class="input-title">// first name</div>
+                  <input placeholder="First name" />
+                </div>
+                <div class="row-input">
+                  <div class="input-title">// Last name</div>
+                  <input placeholder="Last name" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="row-input">
+                  <div class="input-title">// Email</div>
+                  <input placeholder="Email" />
+                </div>
+                <div class="row-input">
+                  <div class="input-title">// Phone number</div>
+                  <input placeholder="Phone number" />
+                </div>
+              </div>
+              <div class="contact-programs">
+                <p>// what can we help you with?</p>
+                <div class="contact-program-titles">
+                  <input type="radio" />
+                  <h4>FCS</h4>
+                  <input type="radio" />
+                  <h4>FSW</h4>
+                  <input type="radio" />
+                  <h4>FCD</h4>
+                  <input type="radio" />
+                  <h4>UIX</h4>
+                  <input type="radio" />
+                  <h4>Hire Talent</h4>
+                  <input type="radio" />
+                  <h4>Other</h4>
+                </div>
+              </div>
+              <div class="inquiry">
+                <p>// inquiry</p>
+                <input type="text-area" placeholder="what we can help you with?" />
+              </div>
+              <div class="contact-submit-btn">Submit</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Partners section-->
+      <section class="start-section partners-section">
+        <div class="inner-section">
+          <div class="header-section section-title programs-title"><span class="green-arrow">></span> Partners</div>
+          <div class="circles">
+            <div class="circle-div-t"></div>
+            <div class="circle-div-t"></div>
+            <div class="circle-div-t"></div>
+          </div>
+        </div>
+        <div class="partners-container">
+          <div class="row-partners">
+            <img src="./assets/img/alfanar.png" alt="" />
+            <img src="./assets/img/life.png" alt="" />
+            <img src="./assets/img/isdb.png" alt="" />
+            <img src="./assets/img/spark.png" alt="" />
+            <img src="./assets/img/gil.png" alt="" />
+            <img src="./assets/img/netherlands.png" alt="" />
+          </div>
+          <div class="row-partners">
+            <img src="./assets/img/abdulaziz.png" alt="" />
+            <img src="./assets/img/unicef.png" alt="" />
+            <img src="./assets/img/drosos.png" alt="" />
+            <img src="./assets/img/giz.png" alt="" />
+            <img src="./assets/img/german.png" alt="" />
+            <img src="./assets/img/michelkhalaf.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="news-letter">
+        <div class="subscribe-text">
+          <h1>Subscribe to our newsletter</h1>
+          <p>and stay up-to-date with our latest news.</p>
+        </div>
+        <div class="email-section">
+          <input type="email" placeholder="Enter your email" />
+          <div class="submit-newsletter">SUBSCRIBE</div>
+        </div>
+      </section>
+      <div class="footer-wrapper">
+        <div class="links-section">
+          <div class="page-links">
+            <div class="links-left">
+              <ul>
+                <li>SE FACTORY</li>
+                <li>Home</li>
+                <li>Hello World!</li>
+                <li>Milestones</li>
+                <li>Programs</li>
+                <li>Hire Talent</li>
+              </ul>
+            </div>
+            <div class="links-right">
+              <ul>
+                <li>FAQs</li>
+                <li>Testimonials</li>
+                <li>Contact us</li>
+                <li>Partners</li>
+              </ul>
+            </div>
+          </div>
+          <div class="social-links">
+            <img src="./assets/img/se-logo.png" alt="" width="100px" />
+            <div class="social-links-buttons">
+              <i class="fa fab fa-linkedin"></i>
+              <i class="fab fab fa-instagram-square"></i>
+              <i class="fa fab fab fa-twitter-square"></i>
+              <i class="fab fa-youtube-square"></i>
+              <i class="fa fab fab fa-facebook"></i>
+            </div>
+          </div>
+        </div>
+        <div class="copolicy">
+          <p>© 2023 SE Factory SAL. All rights reserved.</p>
+          <div class="policy">Privacpolicy</div>
+        </div>
+      </div>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
 </html>
