@@ -77,7 +77,7 @@ tabs.forEach((tab) => {
 let currentSlide = 0;
 const slides = document.querySelectorAll(".testimonial-slide");
 const dots = document.querySelectorAll(".dot");
-
+slides[0].style.display = "block";
 function showSlide(event) {
   slides.forEach((slide) => {
     slide.style.display = "none";
