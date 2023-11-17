@@ -34,12 +34,12 @@
   align-items: center;
 }
 .hero-left {
-  background-image: url(/assets/img/hero-left.png);
+  background-image: url(../assets/img/hero-left.png);
 
   justify-content: flex-end;
 }
 .hero-right {
-  background-image: url(/assets/img/hero-right.png);
+  background-image: url(../assets/img/hero-right.png);
 
   justify-content: flex-start;
 }
