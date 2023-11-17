@@ -31,19 +31,22 @@ let typed = new Typed(".auto-input", {
 });
 
 const navButton = document.querySelector("#nav-btn").addEventListener("click", displayMenu);
+const navMenuClose = document.querySelector(".nav-close-btn").addEventListener("click", hideMenu);
 const navMenu = document.querySelector(".nav-menu");
+
 const menuIcon = document.querySelector("#nav-btn");
 
 function displayMenu() {
+  if (navMenu.style.display !== "block") {
+    navMenu.style.display = "block";
+  }
+}
+function hideMenu() {
   if (navMenu.style.display === "block") {
     navMenu.style.display = "none";
     menuIcon.innerHTML = '<i class="fa fa-bars"></i>';
-  } else {
-    navMenu.style.display = "block";
-    menuIcon.innerHTML = '<i class="fa fa-times"></i>';
   }
 }
-
 const tabs = document.querySelectorAll("[data-tab-target]");
 const tabContents = document.querySelectorAll("[data-tab-content]");
 const tabSection = document.getElementById("tabs-section");
