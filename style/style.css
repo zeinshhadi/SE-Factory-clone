@@ -689,6 +689,9 @@
   width: 80%;
 }
 
+.map img {
+  border-radius: 10px;
+}
 .directions {
   display: flex;
   justify-content: space-between;
