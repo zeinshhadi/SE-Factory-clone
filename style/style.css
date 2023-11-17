@@ -316,8 +316,6 @@
 .milestone-left {
   width: 500px;
 }
-.milestone-right {
-}
 
 .percentage {
   font-size: 60px;
@@ -655,11 +653,16 @@
 
 .faq-answer {
   display: none;
-  padding: 10px;
+  padding: 20px;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .faq-item.open .faq-answer {
   display: block;
+}
+.faq-list {
+  font-size: 14px;
 }
 
 .view-all {
@@ -688,12 +691,16 @@
 
 .directions {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: column;
   background-color: var(--black);
   color: var(--white);
   border-radius: 20px;
   padding: 2rem;
+  width: 25%;
+}
+.directions p {
+  color: var(--grey);
 }
 .contact-form {
   display: flex;
@@ -704,29 +711,60 @@
   border-radius: 20px;
   padding: 2rem;
   align-items: flex-start;
-  width: 100%;
+  width: 75%;
 }
-
+.topic {
+  color: var(--grey);
+}
 .row {
   display: flex;
   justify-content: space-between;
-  gap: 50%;
+  gap: 20px;
 }
 .row-input {
   display: flex;
   flex-direction: column;
+  width: 390px;
+  gap: 8px;
+  margin-bottom: 10px;
 }
-
+.input-title {
+  font-size: 12px;
+}
+.row-input input {
+  height: 50px;
+}
 .contact-programs {
   display: flex;
   flex-direction: column;
 }
 
 .contact-program-titles {
+  gap: 10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
+  color: var(--grey);
 }
-
+.inquiry {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.inquiry input {
+  width: 100%;
+  height: 200px;
+}
+.contact-submit-btn {
+  margin-top: 10px;
+  background-color: var(--sef_primary);
+  color: var(--black);
+  padding: 13px;
+  align-self: flex-end;
+  width: 100px;
+}
+.address {
+  color: var(--grey);
+}
 /* partners section */
 .partners-section {
   height: 50vh;
@@ -757,6 +795,7 @@
   background-color: var(--black);
   align-items: center;
   height: 13rem;
+  font-size: 12px;
 }
 
 .subscribe-text {
@@ -765,6 +804,9 @@
   color: var(--white);
   margin: 0 auto;
   width: 50%;
+}
+.subscribe-text p {
+  color: var(--grey);
 }
 .subscribe-text h1 {
   margin: 0;

@@ -125,7 +125,7 @@
   [data-tab-content] {
     width: 90%;
     align-items: center;
-    height: 90%;
+    height: 800px;
   }
 
   .inner-tab-right {
@@ -140,6 +140,9 @@
     padding: 0;
     height: auto;
   }
+  .hire-section-span {
+    width: 100%;
+  }
   .contact-us-container {
     flex-direction: column-reverse;
     width: 90%;
@@ -149,6 +152,7 @@
   }
   .inner-testimonial-slide {
     flex-direction: column;
+    gap: 10;
   }
   .row-partners {
     flex-wrap: wrap;
@@ -212,6 +216,27 @@
     gap: 10px;
   }
   .learn {
+    width: 100%;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+  .contact-program-titles {
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 100%;
+  }
+  .contact-program-titles input {
+    margin: 0;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .inquiry {
+    width: 100%;
+  }
+  .directions {
     width: 100%;
   }
 }
